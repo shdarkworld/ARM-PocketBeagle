@@ -43,7 +43,7 @@ Utilice el argumento **bloques** para realizar una predicción sobre los datos c
 
 		python3 AR_fcast.py bloques
 
-El argumento **bloques** permite seleccionar el número de predicciones **h** a calcular, basadas en el modelo **AR** de $y(t)$ sobre los lags (retrasos) $x(t-h)$
+El argumento **bloques** permite seleccionar el número de predicciones **h** a calcular, basadas en el modelo **AR** de ![equation](https://latex.codecogs.com/gif.latex?y%28t%29) sobre los lags (retrasos) ![equation](https://latex.codecogs.com/gif.latex?x%28t-h%29)
 
 La gráfica de la tendencia de la Temperatura a partir de las predicciones se almacena en *Graph_tend.png*
 >Verifique que el número de predicciones no exceda el número de total de datos anteriores en *data_temp.csv*
