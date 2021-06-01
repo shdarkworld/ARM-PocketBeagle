@@ -2,7 +2,7 @@
 
 El Pronóstico de la temperatura se obtiene a través del ajuste de los coeficientes del modelo Autorregresivo sobre las muestras de temperatura anterior.
 
-$X(t+1) = \phi_0 + \phi_1 X(t-1) + \phi_2 X(t-2) + ... $
+$X(t+1) = \phi_0 + \phi_1 X(t-1) + \phi_2 X(t-2) + ...$
 
 Los coeficientes $\phi_n$ se ajustan mediante un proceso iterativo de mínimos cuadrados a partir de las muestras de temperatura anteriores (lags).
 
