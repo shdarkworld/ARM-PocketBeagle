@@ -21,17 +21,17 @@ El Sensor de temperatura **LM35** entrega un voltaje que varía de forma lineal 
 El pin **Vs+** se conecta directamente a los 3.3V de la Beagle, **GND** a su homólogo y **Vout** al pin 0 del ADC (**AIN0**).
 
 ```
-	USB	^	
-		|	 -------------------          --------------
-		|	|					|        |     LM35     |
-		----|					|        | Vs+ Vout GND |
-			|	   Pocket		|	      --------------
-			|	   Beagle		|			|   |   |
-			|					|			|   |   |
-			|			   3.3V |-----------|   |   |
-			|			   AIN0 |---------------|   |
-			|			    GND |-------------------|
-			|					|
+	     USB  ^	
+		  |	 -------------------          --------------
+		  |	|		    |        |     LM35     |
+	          ------|      		    |        | Vs+ Vout GND |
+			|      Pocket	    |	      --------------
+			|      Beagle	    |		|   |   |
+			|		    |		|   |   |
+			|	       3.3V |------------   |   |
+			|	       AIN0 |----------------   |
+			|	        GND |-------------------- 
+			|		    |
 			 ------------------- 
 
 ```
