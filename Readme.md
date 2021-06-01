@@ -2,9 +2,9 @@
 
 El Pronóstico de la temperatura se obtiene a través del ajuste de los coeficientes del modelo Autorregresivo sobre las muestras de temperatura anterior.
 
-$X(t+1) = \phi_0 + \phi_1 X(t-1) + \phi_2 X(t-2) + ...$
+![equation](https://latex.codecogs.com/gif.latex?X%28t&plus;1%29%20%3D%20%5Cphi_0%20&plus;%20%5Cphi_1%20X%28t-1%29%20&plus;%20%5Cphi_2%20X%28t-2%29%20&plus;%20...)
 
-Los coeficientes $\phi_n$ se ajustan mediante un proceso iterativo de mínimos cuadrados a partir de las muestras de temperatura anteriores (lags).
+Los coeficientes ![equation](https://latex.codecogs.com/gif.latex?%5Cphi_n) se ajustan mediante un proceso iterativo de mínimos cuadrados a partir de las muestras de temperatura anteriores (lags).
 
 > Se utiliza el criterio de Akaike (AIC) para determinar cómo se adaptan los datos al modelo **AR** a partir de los retrasos (lags).
 
